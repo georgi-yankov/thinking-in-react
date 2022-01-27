@@ -107,8 +107,7 @@ class SearchBar extends React.Component {
             checked={this.props.inStockOnly}
             onChange={this.handleInStockChange}
           />
-          {' '}
-          Only show products in stock
+          {' '} Only show products in stock
         </p>
       </form>
     );
